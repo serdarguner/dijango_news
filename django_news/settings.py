@@ -77,6 +77,15 @@ WSGI_APPLICATION = 'django_news.wsgi.application'
 
 DATABASES = {
     'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'URL': 'postgresql://postgres:FFwNt28m2tnWGodbkeRe@containers-us-west-64.railway.app:7869/railway',
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'FFwNt28m2tnWGodbkeRe',
+        'HOST': 'containers-us-west-64.railway.app',
+        'PORT': 7869,
+    },
+    'defaultx': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
