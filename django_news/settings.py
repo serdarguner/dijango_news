@@ -84,10 +84,6 @@ DATABASES = {
         'PASSWORD': 'FFwNt28m2tnWGodbkeRe',
         'HOST': 'containers-us-west-64.railway.app',
         'PORT': 7869,
-    },
-    'defaultx': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
